@@ -6,6 +6,9 @@
   "scripts": {
     "test": "gulp test"
   },
+  "browserify": {
+    "transform": [["babelify", { "presets": ["es2015"] }]]
+  },
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/prebid/Prebid.js.git"
